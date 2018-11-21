@@ -6,13 +6,17 @@ import { HeaderComponent } from './header/header.component';
 import { ViewtaskComponent } from './task/viewtask/viewtask.component';
 import { AddtaskComponent } from './task/addtask/addtask.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AddprojectComponent } from './project/addproject/addproject.component';
+import { AdduserComponent } from './user/adduser/adduser.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ViewtaskComponent,
-    AddtaskComponent
+    AddtaskComponent,
+    AddprojectComponent,
+    AdduserComponent
   ],
   imports: [
     BrowserModule,
