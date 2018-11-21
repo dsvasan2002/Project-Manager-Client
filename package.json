@@ -44,5 +44,22 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.1.6"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsvasan2002/Project-Manager-Client.git"
+  },
+  "keywords": [
+    "CPMB003",
+    "cpmb003",
+    "project-manager-client"
+  ],
+  "author": "Srinivasan Dhanasekaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsvasan2002/Project-Manager-Client/issues"
+  },
+  "homepage": "https://github.com/dsvasan2002/Project-Manager-Client#readme"
 }
