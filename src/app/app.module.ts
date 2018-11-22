@@ -8,6 +8,7 @@ import { AddtaskComponent } from './task/addtask/addtask.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AddprojectComponent } from './project/addproject/addproject.component';
 import { AdduserComponent } from './user/adduser/adduser.component';
+import { HttpClientModule } from '../../node_modules/@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AdduserComponent } from './user/adduser/adduser.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
